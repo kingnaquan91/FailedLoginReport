@@ -173,3 +173,8 @@ if(finalEmpData.length > 10) //if an error has already been logged
    {
       console.log("This employee received an error: \n" +finalEmpData[0]+ "\n" +finalEmpData[3]+"\n"+ finalEmpData[10]);
    }
+
+
+//BONUS - send login records as JSON output to the console
+console.log(JSON.stringify(loginParsedDataArray));
+
